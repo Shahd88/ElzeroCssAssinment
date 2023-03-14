@@ -20,7 +20,7 @@ h3 {
 }
 
 /* mobile */
-@media (max-width:615px) {
+@media (max-width:576px) {
     .parent div {
         width: 300px;
     }
@@ -31,7 +31,7 @@ h3 {
     }
 }
 
-@media (min-width:701px) {
+@media (min-width:577px) (max-width:768px){
     .parent div {
         width: 100%px;
     }
@@ -42,7 +42,7 @@ h3 {
     }
 }
 
-@media (min-width:702px) {
+@media (min-width:992px) (max-width:1200px){
     div {
         width: 100%;
     }
