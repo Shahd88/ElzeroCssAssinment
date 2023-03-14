@@ -1,0 +1,53 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.parent div {
+    background-color: #eee;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h3 {
+    color: rgb(0, 150, 136);
+}
+
+/* mobile */
+@media (max-width:375px) {
+    .parent div {
+        width: 300px;
+    }
+
+    h3 {
+        color: black;
+
+    }
+}
+
+@media (min-width:376px) and (max-width=650px) {
+    .parent div {
+        width: 150px;
+    }
+
+    h3 {
+        color: rgb(221, 48, 91);
+        /* مش عارفه اللون مش شغال ليه */
+    }
+}
+
+@media (min-width=701px) {
+    div {
+        width: 75px;
+    }
+
+    div h3 {
+        color: rgb(0, 150, 136);
+    }
+}
