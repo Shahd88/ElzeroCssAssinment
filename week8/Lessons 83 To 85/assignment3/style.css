@@ -20,7 +20,7 @@ h3 {
 }
 
 /* mobile */
-@media (max-width:612px) {
+@media (max-width:576px) {
     .parent>div {
         width: 300px;
     }
@@ -31,17 +31,15 @@ h3 {
     }
 }
 
-@media (min-width:613px) {
+@media (min-width:577px) and (max-width:768px) {
     .parent.one {
         width: 1400px;
     }
-
     .parent.two,
     .parent.three,
     .parent.four {
         width: calc(100% / 3);
     }
-
     div h3 {
         color: rgb(221, 48, 91);
         /* مش عارفه اللون مش شغال ليه */
@@ -49,7 +47,7 @@ h3 {
 }
 
 
-@media (min-width=700px) {
+@media (min-width:992px) and (max-width:1200px) {
 
     .parent .one,
     .parent .four {
